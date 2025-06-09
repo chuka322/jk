@@ -1,0 +1,80 @@
+body{
+    background-color:black ;
+
+}
+.firstDiv{
+   position: fixed;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   border:30px solid #112442;
+   
+}
+
+img{
+    position: fixed;
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+h1{
+    margin-left: 50%;
+    margin-top: 10%;
+    color:#103F85;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    
+}
+button{
+    border-color:black;
+    border-radius: 50px;
+    margin-top: 215px;
+    margin-left:235px;
+    z-index: 10;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 55px;
+}
+h4{
+    text-align: center;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: 300px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    cursor: pointer;
+}
+.Info{
+    text-align: center;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 300px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#103F85;
+    margin-left: 725px;
+}
+.infoBody{
+    background-color:#103F85;
+}
+#i{
+    color:white;
+}
+a{
+    color:bisque;
+    font-size: 15px;
+}
+
+
+.infotext{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
